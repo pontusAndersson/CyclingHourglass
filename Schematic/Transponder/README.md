@@ -5,13 +5,22 @@
 | | |
 | --- | --- |
 | Kort | 19,5 × 19,6 mm, 4 lager |
-| Schema | [RCHourglassTransponder.sch.svg](RCHourglassTransponder.sch.svg) (samma referenser som silkscreen) |
+| Schema | [TransponderV3.kicad_pro](TransponderV3.kicad_pro) · [PDF](TransponderV3.pdf) · [kopplingsöversikt](schema_oversikt.png) |
+| Originalschema | [original schematic files/RCHourglassTransponder.sch.svg](original%20schematic%20files/RCHourglassTransponder.sch.svg) |
 | Firmware | `Firmware/Transponder/bin/RCHourglassT.X.<nummer>.hex` |
 | Programmering | Undersidans dynor **VPP, CLK, DAT, +V, GND** |
 
 Kretsen är 5 V: **U1** MCP1702 LDO, **U2** PIC16F18313 SOIC-8, **C5** antennavstämning. Antennen är kopparslingan på undersidan — linda inget extra.
 
-![TransponderV3 ovansida och undersida](contrib/AndreasM/TransponderV3.png)
+![TransponderV3 ovansida och undersida](TransponderV3.png)
+
+# Schema
+
+KiCad-projekt: [TransponderV3.kicad_pro](TransponderV3.kicad_pro). PDF: [TransponderV3.pdf](TransponderV3.pdf). Ledningsnummer **[1]–[20]** är samma i schemat och i översikten.
+
+![Kopplingsöversikt TransponderV3](schema_oversikt.png)
+
+Originalschemat från RCHourglass ligger i [original schematic files](original%20schematic%20files/). Generatorerna: [scripts/generate_kicad_sch.py](scripts/generate_kicad_sch.py) och [scripts/generate_schema_oversikt.py](scripts/generate_schema_oversikt.py).
 
 Använd inte den här listan på AndreasM **V2** (där heter avstämningen C4), WBorek (3,3 V, C5 68 pF, R1 65 Ω) eller det officiella perfboard-bygget (LP2950, MOSFET, lindad antenn). OSH Park-texten på V3 säger fortfarande “play around with **C4**” — det är V2-namn. Här stämmer du **C5**.
 
@@ -40,7 +49,7 @@ På cykel: tejp eller väska på ramen, **inte** metall eller LiPo-packen mitt �
 
 # Komponenter (TME-order 35407144)
 
-Tillräckligt för **4 kort**. Råfil: [contrib/AndreasM/TME-order-35407144.csv](contrib/AndreasM/TME-order-35407144.csv).
+Tillräckligt för **4 kort**. Råfil: [TME-order-35407144.csv](TME-order-35407144.csv).
 
 | Per kort | Beställt | Ref | TME / MPN | Vad | Kapsling |
 | --- | --- | --- | --- | --- | --- |

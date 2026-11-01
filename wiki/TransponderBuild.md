@@ -12,7 +12,7 @@ The PIC chip used in the transponder can be programmed with the decoder optional
 | --- | --- |
 | **AndreasM TransponderV3** (det vi bygger) | [Schematic/Transponder/README.md](../Schematic/Transponder/README.md) |
 | Officiellt perfboard (hålmonterat) | Kapitlet nedan |
-| AndreasM Transponder**V2** / WBorek | [contrib/README.md](../Schematic/Transponder/contrib/README.md) — använd inte V3-BOM:en |
+| AndreasM Transponder**V2** / WBorek | [WBorek-schema](../Schematic/Transponder/contrib/WBorek/WBorekTransponder_sch.svg) — använd inte V3-BOM:en |
 
 # Perfboard (officiellt genom-hålsbygge)
 

@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+*.kicad_prl
+fp-info-cache
+schema_oversikt.html
