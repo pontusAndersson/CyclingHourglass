@@ -1,7 +1,6 @@
-# RCHourglass
+# CyclingHourglass
 DIY lap timing system.
 
-![RCHourglass logo](../../../images/RCHourglassLogoNewBig.png "RCHourglass logo")
 
 # Folder description
 Community decoder boards and layouts. These are not the official perfboard build; check pinout and BOM against the schematics in the parent folder.
