@@ -19,7 +19,9 @@ Pontus
 
 # Project status
 
-Transponder and decoder build instructions are published in the wiki.
+**Transponder:** we build **AndreasM TransponderV3** (OSH Park, 5 V SMD). Assembly, BOM and battery: [Schematic/Transponder/README.md](Schematic/Transponder/README.md).
+
+Decoder build instructions are in the wiki.
 
 The project is in beta status as features are added/tested. Several working prototypes of the decoder have been tested succesfully. 
 Many transponder prototypes have been tested successfully. 
@@ -44,7 +46,7 @@ The decoder is compatible with lap timing software using the CANO protocol (Z-Ro
 
 # Resources
 
-Build instructions from the original project are copied in [wiki/](wiki/Home.md) ([mv4wd wiki](https://github.com/mv4wd/RCHourglass/wiki/)): decoder, transponder, protocol, compatibility.
+Transponder we build: [Schematic/Transponder/README.md](Schematic/Transponder/README.md) (AndreasM TransponderV3). Original project docs are copied in [wiki/](wiki/Home.md) ([mv4wd wiki](https://github.com/mv4wd/RCHourglass/wiki/)).
 
 The main community thread, with build reports and a lot of practical info, is [RCHourglass DIY Lap Timing (AKA Cano revised)](https://www.rctech.net/forum/radio-electronics/1002584-rchourglass-diy-lap-timing-aka-cano-revised.html) on RCTech. Example: [page 15](https://www.rctech.net/forum/radio-electronics/1002584-rchourglass-diy-lap-timing-aka-cano-revised-15.html).
 
