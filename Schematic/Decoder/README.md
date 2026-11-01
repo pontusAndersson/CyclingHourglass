@@ -1,7 +1,6 @@
-# RCHourglass
+# CyclingHourglass
 DIY lap timing system.
 
-![RCHourglass logo](../../images/RCHourglassLogoNewBig.png "RCHourglass logo")
 
 # Folder description
 This folder contains the official decoder and loop-amplifier schematics.
