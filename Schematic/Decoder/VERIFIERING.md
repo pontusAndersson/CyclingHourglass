@@ -2,9 +2,10 @@
 
 Använd detta vid bänken. Referensscheman i samma mapp:
 
-- [LoopAmplifierRevB6.jpg](LoopAmplifierRevB6.jpg) — Cano loop amp Rev B
-- [RCHourglass decoder schematic.png](RCHourglass%20decoder%20schematic.png) — Cano PDIA + PSoC (wiki-bygget)
-- [Decoder Schematic.pdf](Decoder%20Schematic.pdf) — KiCad Rev 2 med testpunkter (LED/piezo/PIC valfritt)
+- [LoopAmplifierRevB6.jpg](original%20schematic%20files/LoopAmplifierRevB6.jpg) — Cano loop amp Rev B
+- [RCHourglass decoder schematic.png](original%20schematic%20files/RCHourglass%20decoder%20schematic.png) — Cano PDIA + PSoC (wiki-bygget)
+- [Decoder Schematic.pdf](original%20schematic%20files/Decoder%20Schematic.pdf) — KiCad Rev 2 med testpunkter (LED/piezo/PIC valfritt)
+- Nya KiCad-scheman och översikter: [README.md](README.md)
 
 PSoC-dotterkortet ska vara **urtaget** tills avsnitt 1–3 är klara.
 

@@ -21,7 +21,7 @@ Pontus
 
 **Transponder:** we build **AndreasM TransponderV3** (OSH Park, 5 V SMD). Assembly, BOM and battery: [Schematic/Transponder/README.md](Schematic/Transponder/README.md).
 
-Decoder build instructions are in the wiki.
+**Decoder + loop amp:** KiCad and wiring overviews in [Schematic/Decoder/README.md](Schematic/Decoder/README.md). Build steps: [wiki/DecoderBuild.md](wiki/DecoderBuild.md).
 
 The project is in beta status as features are added/tested. Several working prototypes of the decoder have been tested succesfully. 
 Many transponder prototypes have been tested successfully. 

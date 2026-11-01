@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180">
+<rect width="1600" height="1180" fill="#ece7dc"/>
+<rect x="0" y="0" width="1600" height="78" rx="0" ry="0" fill="#1f2937" stroke="#1f2937" stroke-width="0"/>
+<text x="40" y="34" text-anchor="start" fill="#f9fafb" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700">RCHourglass Decoder — kopplingsöversikt</text>
+<text x="40" y="58" text-anchor="start" fill="#d1d5db" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400">Varje färgad linje = en ledning  ·  [n] = nummer, samma som i KiCad  ·  Cano PDIA + CY8CKIT-059  ·  Wiki-bygget</text>
+<path d="M40,102 H66" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="73" y="106" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="600">Phantom / bias</text>
+<path d="M250,102 H276" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="283" y="106" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="600">+5 V</text>
+<path d="M460,102 H486" fill="none" stroke="#374151" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="493" y="106" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="600">GND</text>
+<path d="M670,102 H696" fill="none" stroke="#15803d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="703" y="106" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="600">RF / analog ut</text>
+<path d="M880,102 H906" fill="none" stroke="#4338ca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="913" y="106" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="600">PSoC</text>
+<path d="M1090,102 H1116" fill="none" stroke="#0e7490" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123" y="106" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="600">Kristall 5 MHz</text>
+<rect x="48" y="220" width="170" height="100" rx="10" ry="10" fill="#fffef9" stroke="#1f2937" stroke-width="2.0"/>
+<rect x="48" y="220" width="170" height="26" rx="10" ry="10" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<rect x="48" y="234" width="170" height="12" rx="0" ry="0" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<text x="133.0" y="238" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">J1  från loop amp</text>
+<text x="133.0" y="311" text-anchor="middle" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">75 Ω F  ·  phantom</text>
+<circle cx="218" cy="258" r="4.5" fill="#b45309"/>
+<text x="208" y="262" text-anchor="end" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">center</text>
+<circle cx="130" cy="320" r="4.5" fill="#b45309"/>
+<text x="130" y="310" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">skärm</text>
+<path d="M250,188 H258 M298,188 H306" fill="none" stroke="#b45309" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="258" y="180" width="40" height="16" rx="3" ry="3" fill="#fffef9" stroke="#b45309" stroke-width="2.2"/>
+<text x="278" y="172" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">R1  75 Ω</text>
+<path d="M218,258 L250,258 L250,188 L250,188" fill="none" stroke="#b45309" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="221.0" y="221" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#b45309" stroke-width="1.8"/>
+<text x="230" y="234" text-anchor="middle" fill="#b45309" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">1</text>
+<path d="M306,188 L320,188 L320,160 L1540,160" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="160" r="4.5" fill="#1d4ed8"/>
+<text x="500" y="146" text-anchor="start" fill="#1d4ed8" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">+5 V-skena  (USB / VDDIO)</text>
+<path d="M130,320 V334" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M119,334 H141" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M123,338 H137" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M127,342 H133" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="147.0" y="329" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#374151" stroke-width="1.8"/>
+<text x="156" y="342" text-anchor="middle" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">2</text>
+<rect x="360" y="200" width="180" height="110" rx="10" ry="10" fill="#fffef9" stroke="#1f2937" stroke-width="2.0"/>
+<rect x="360" y="200" width="180" height="26" rx="10" ry="10" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<rect x="360" y="214" width="180" height="12" rx="0" ry="0" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<text x="450.0" y="218" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">Q5  2N3906</text>
+<text x="450.0" y="301" text-anchor="middle" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">3,7 V  TP1/TP2</text>
+<circle cx="430" cy="200" r="4.5" fill="#b45309"/>
+<text x="430" y="242" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">E R7 1k21</text>
+<circle cx="450" cy="310" r="4.5" fill="#b45309"/>
+<text x="450" y="300" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">C R8 10k</text>
+<path d="M430,160 L430,200" fill="none" stroke="#1d4ed8" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="430" cy="160" r="4.5" fill="#1d4ed8"/>
+<rect x="421.0" y="179" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#b45309" stroke-width="1.8"/>
+<text x="430" y="192" text-anchor="middle" fill="#b45309" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">3</text>
+<path d="M450,310 V324" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M439,324 H461" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M443,328 H457" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M447,332 H453" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="560" y="280" text-anchor="start" fill="#b45309" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">C3 100 nF mot +5 V</text>
+<rect x="360" y="360" width="280" height="160" rx="10" ry="10" fill="#fffef9" stroke="#1f2937" stroke-width="2.0"/>
+<rect x="360" y="360" width="280" height="26" rx="10" ry="10" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<rect x="360" y="374" width="280" height="12" rx="0" ry="0" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<text x="500.0" y="378" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">Q1 / Q2  2N3906</text>
+<text x="500.0" y="511" text-anchor="middle" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">PNP-par  ·  R2 100 Ω till +5 V</text>
+<circle cx="360" cy="420" r="4.5" fill="#15803d"/>
+<text x="370" y="424" text-anchor="start" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">Q1 B  C1 47 pF</text>
+<circle cx="640" cy="420" r="4.5" fill="#15803d"/>
+<text x="630" y="424" text-anchor="end" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">Q2 B  C2 470 pF</text>
+<circle cx="430" cy="520" r="4.5" fill="#15803d"/>
+<text x="430" y="510" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">Q1 C</text>
+<circle cx="560" cy="520" r="4.5" fill="#15803d"/>
+<text x="560" y="510" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">Q2 C = ut</text>
+<circle cx="500" cy="360" r="4.5" fill="#15803d"/>
+<text x="500" y="402" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">E</text>
+<path d="M500,160 L500,360" fill="none" stroke="#1d4ed8" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="500" cy="160" r="4.5" fill="#1d4ed8"/>
+<rect x="491.0" y="179" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#1d4ed8" stroke-width="1.8"/>
+<text x="500" y="192" text-anchor="middle" fill="#1d4ed8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">5</text>
+<path d="M218,258 L250,258 L250,420 L360,420" fill="none" stroke="#15803d" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="241.0" y="351" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#15803d" stroke-width="1.8"/>
+<text x="250" y="364" text-anchor="middle" fill="#15803d" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">4</text>
+<path d="M450,310 L300,310 L300,420 L360,420" fill="none" stroke="#b45309" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="291.0" y="381" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#b45309" stroke-width="1.8"/>
+<text x="300" y="394" text-anchor="middle" fill="#b45309" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">6</text>
+<text x="300" y="448" text-anchor="start" fill="#b45309" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">R5 1k00</text>
+<text x="660" y="408" text-anchor="start" fill="#b45309" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">R6 1k00</text>
+<rect x="360" y="580" width="280" height="110" rx="10" ry="10" fill="#fffef9" stroke="#1f2937" stroke-width="2.0"/>
+<rect x="360" y="580" width="280" height="26" rx="10" ry="10" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<rect x="360" y="594" width="280" height="12" rx="0" ry="0" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<text x="500.0" y="598" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">Q3 / Q4  2N3904</text>
+<text x="500.0" y="681" text-anchor="middle" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">NPN  ·  R3/R4 200 Ω</text>
+<circle cx="430" cy="580" r="4.5" fill="#15803d"/>
+<text x="430" y="622" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">Q3 C</text>
+<circle cx="560" cy="580" r="4.5" fill="#15803d"/>
+<text x="560" y="622" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">Q4 C</text>
+<circle cx="500" cy="690" r="4.5" fill="#15803d"/>
+<text x="500" y="680" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">E</text>
+<path d="M430,520 L430,580" fill="none" stroke="#15803d" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560,520 L560,580" fill="none" stroke="#15803d" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="421.0" y="551" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#15803d" stroke-width="1.8"/>
+<text x="430" y="564" text-anchor="middle" fill="#15803d" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">7</text>
+<path d="M500,690 V704" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M489,704 H511" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M493,708 H507" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M497,712 H503" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="560" y="700" text-anchor="start" fill="#15803d" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">TP10/11 ~0,39 V   TP9 ~1,05 V</text>
+<path d="M680,640 H688 M728,640 H736" fill="none" stroke="#15803d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="688" y="632" width="40" height="16" rx="3" ry="3" fill="#fffef9" stroke="#15803d" stroke-width="2.2"/>
+<text x="708" y="624" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">R9  2k00</text>
+<path d="M736,160 L736,640 L680,640" fill="none" stroke="#1d4ed8" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="736" cy="160" r="4.5" fill="#1d4ed8"/>
+<path d="M560,580 L560,640 L680,640" fill="none" stroke="#15803d" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="631.0" y="619" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#15803d" stroke-width="1.8"/>
+<text x="640" y="632" text-anchor="middle" fill="#15803d" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">8</text>
+<path d="M800,650 V666 M800,674 V690" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M788,666 H812" fill="none" stroke="#374151" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M788,674 H812" fill="none" stroke="#374151" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="818" y="667" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">R10</text>
+<text x="818" y="682" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">2k00↓</text>
+<path d="M736,640 L800,640 L800,650" fill="none" stroke="#15803d" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M800,690 V704" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M789,704 H811" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M793,708 H807" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M797,712 H803" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="820" y="628" text-anchor="start" fill="#15803d" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">TP8 ~1,87 V</text>
+<rect x="980" y="300" width="280" height="260" rx="10" ry="10" fill="#fffef9" stroke="#1f2937" stroke-width="2.0"/>
+<rect x="980" y="300" width="280" height="26" rx="10" ry="10" fill="#4338ca" stroke="#4338ca" stroke-width="0"/>
+<rect x="980" y="314" width="280" height="12" rx="0" ry="0" fill="#4338ca" stroke="#4338ca" stroke-width="0"/>
+<text x="1120.0" y="318" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">U1  CY8CKIT-059</text>
+<text x="1120.0" y="551" text-anchor="middle" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">PSoC 5LP  ·  räkna stift på listen</text>
+<circle cx="980" cy="420" r="4.5" fill="#4338ca"/>
+<text x="990" y="424" text-anchor="start" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">P12_2 analog in</text>
+<circle cx="980" cy="480" r="4.5" fill="#4338ca"/>
+<text x="990" y="484" text-anchor="start" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">P12_3 hysteres</text>
+<circle cx="1080" cy="300" r="4.5" fill="#4338ca"/>
+<text x="1080" y="342" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">VDDIO</text>
+<circle cx="1080" cy="560" r="4.5" fill="#4338ca"/>
+<text x="1080" y="550" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">GND</text>
+<circle cx="1260" cy="400" r="4.5" fill="#4338ca"/>
+<text x="1250" y="404" text-anchor="end" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">P15_0</text>
+<circle cx="1260" cy="460" r="4.5" fill="#4338ca"/>
+<text x="1250" y="464" text-anchor="end" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">P15_1</text>
+<path d="M736,640 L920,640 L920,420 L980,420" fill="none" stroke="#4338ca" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="891.0" y="411" width="18" height="18" rx="9" ry="9" fill="#fffef9" stroke="#4338ca" stroke-width="1.8"/>
+<text x="900" y="424" text-anchor="middle" fill="#4338ca" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">9</text>
+<path d="M820,480 H828 M868,480 H876" fill="none" stroke="#4338ca" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="828" y="472" width="40" height="16" rx="3" ry="3" fill="#fffef9" stroke="#4338ca" stroke-width="2.2"/>
+<text x="848" y="464" text-anchor="middle" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">R11  4k87</text>
+<path d="M980,480 L876,480" fill="none" stroke="#4338ca" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M820,480 L820,420 L920,420" fill="none" stroke="#4338ca" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="787.0" y="459" width="26" height="18" rx="9" ry="9" fill="#fffef9" stroke="#4338ca" stroke-width="1.8"/>
+<text x="800" y="472" text-anchor="middle" fill="#4338ca" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">10</text>
+<path d="M1080,160 L1080,300" fill="none" stroke="#1d4ed8" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1080" cy="160" r="4.5" fill="#1d4ed8"/>
+<rect x="1067.0" y="179" width="26" height="18" rx="9" ry="9" fill="#fffef9" stroke="#1d4ed8" stroke-width="1.8"/>
+<text x="1080" y="192" text-anchor="middle" fill="#1d4ed8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">11</text>
+<path d="M1080,560 V574" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1069,574 H1091" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1073,578 H1087" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1077,582 H1083" fill="none" stroke="#374151" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1093.0" y="569" width="26" height="18" rx="9" ry="9" fill="#fffef9" stroke="#374151" stroke-width="1.8"/>
+<text x="1106" y="582" text-anchor="middle" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">12</text>
+<rect x="1320" y="360" width="160" height="100" rx="10" ry="10" fill="#fffef9" stroke="#1f2937" stroke-width="2.0"/>
+<rect x="1320" y="360" width="160" height="26" rx="10" ry="10" fill="#0e7490" stroke="#0e7490" stroke-width="0"/>
+<rect x="1320" y="374" width="160" height="12" rx="0" ry="0" fill="#0e7490" stroke="#0e7490" stroke-width="0"/>
+<text x="1400.0" y="378" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">Y1  5,000 MHz</text>
+<text x="1400.0" y="451" text-anchor="middle" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">C4/C5 22 pF</text>
+<circle cx="1320" cy="400" r="4.5" fill="#0e7490"/>
+<text x="1330" y="404" text-anchor="start" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">1</text>
+<circle cx="1320" cy="460" r="4.5" fill="#0e7490"/>
+<text x="1330" y="464" text-anchor="start" fill="#1f2937" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="600">2</text>
+<path d="M1260,400 L1320,400" fill="none" stroke="#0e7490" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1260,460 L1320,460" fill="none" stroke="#0e7490" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1277.0" y="391" width="26" height="18" rx="9" ry="9" fill="#fffef9" stroke="#0e7490" stroke-width="1.8"/>
+<text x="1290" y="404" text-anchor="middle" fill="#0e7490" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">13</text>
+<rect x="1277.0" y="451" width="26" height="18" rx="9" ry="9" fill="#fffef9" stroke="#0e7490" stroke-width="1.8"/>
+<text x="1290" y="464" text-anchor="middle" fill="#0e7490" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">14</text>
+<text x="48" y="760" text-anchor="start" fill="#374151" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700">F-chassi jordas till kretsjord (wiki: vit tråd till R8).</text>
+<text x="48" y="782" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400">Q1 Q2 Q5 = 2N3906 PNP. Q3 Q4 = 2N3904 NPN.</text>
+<text x="48" y="804" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400">Kristall på P15_0 / P15_1, inte kitets XTAL-silk.</text>
+<text x="48" y="826" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400">LED, piezo och PIC-prog är valfria. Se original PDF Rev 2.</text>
+<rect x="40" y="860" width="1520" height="292" rx="12" ry="12" fill="#fffef9" stroke="#1f2937" stroke-width="2"/>
+<rect x="40" y="860" width="1520" height="36" rx="12" ry="12" fill="#1f2937" stroke="#1f2937" stroke-width="0"/>
+<rect x="40" y="878" width="1520" height="18" rx="0" ry="0" fill="#1f2937" stroke="#1f2937" stroke-width="0"/>
+<text x="800.0" y="884" text-anchor="middle" fill="#f9fafb" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700">Ledningslista — Decoder PDIA</text>
+<text x="60" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="700">#</text>
+<text x="104" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="700">Net</text>
+<text x="200" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">Från → Till</text>
+<text x="460" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">Tips</text>
+<rect x="56" y="934" width="34" height="17" rx="4" ry="4" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<text x="73" y="947" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">1</text>
+<text x="104" y="947" text-anchor="start" fill="#b45309" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">PHAN</text>
+<text x="200" y="947" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">J1 center → R1 75 Ω → +5 V</text>
+<text x="460" y="947" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">phantom till loop amp</text>
+<rect x="56" y="960" width="34" height="17" rx="4" ry="4" fill="#374151" stroke="#374151" stroke-width="0"/>
+<text x="73" y="973" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">2</text>
+<text x="104" y="973" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">GND</text>
+<text x="200" y="973" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">J1 skärm → jord</text>
+<text x="460" y="973" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">måste sitta i kretsjord</text>
+<rect x="56" y="986" width="34" height="17" rx="4" ry="4" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<text x="73" y="999" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">3</text>
+<text x="104" y="999" text-anchor="start" fill="#b45309" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">BIAS</text>
+<text x="200" y="999" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">R7 → Q5 E, C3 100 n, R8 10k</text>
+<text x="460" y="999" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">TP1/TP2 ~3,7 V</text>
+<rect x="56" y="1012" width="34" height="17" rx="4" ry="4" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<text x="73" y="1025" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">4</text>
+<text x="104" y="1025" text-anchor="start" fill="#15803d" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">RF</text>
+<text x="200" y="1025" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">J1 → C1 47 pF → Q1 bas</text>
+<text x="460" y="1025" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">TP7 ~3,96 V</text>
+<rect x="56" y="1038" width="34" height="17" rx="4" ry="4" fill="#1d4ed8" stroke="#1d4ed8" stroke-width="0"/>
+<text x="73" y="1051" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">5</text>
+<text x="104" y="1051" text-anchor="start" fill="#1d4ed8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">+5V</text>
+<text x="200" y="1051" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">R2 100 Ω → Q1/Q2 E</text>
+<text x="460" y="1051" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">PNP-svans mot +5 V</text>
+<rect x="56" y="1064" width="34" height="17" rx="4" ry="4" fill="#b45309" stroke="#b45309" stroke-width="0"/>
+<text x="73" y="1077" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">6</text>
+<text x="104" y="1077" text-anchor="start" fill="#b45309" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">BIAS</text>
+<text x="200" y="1077" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">3,7 V → R5/R6 1k → baser</text>
+<text x="460" y="1077" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">TP6/TP5 ~3,7 V</text>
+<rect x="56" y="1090" width="34" height="17" rx="4" ry="4" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<text x="73" y="1103" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">7</text>
+<text x="104" y="1103" text-anchor="start" fill="#15803d" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">RF</text>
+<text x="200" y="1103" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">Q1 C → Q3, Q2 C → Q4</text>
+<text x="460" y="1103" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">strömsspegel, TP9 ~1,05 V</text>
+<text x="820.0" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="700">#</text>
+<text x="864.0" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" font-weight="700">Net</text>
+<text x="960.0" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">Från → Till</text>
+<text x="1220.0" y="920" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700">Tips</text>
+<rect x="816.0" y="934" width="34" height="17" rx="4" ry="4" fill="#15803d" stroke="#15803d" stroke-width="0"/>
+<text x="833.0" y="947" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">8</text>
+<text x="864.0" y="947" text-anchor="start" fill="#15803d" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">UT</text>
+<text x="960.0" y="947" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">Q4 C → R9 2k / R10 2k</text>
+<text x="1220.0" y="947" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">TP8 ~1,87 V utan PSoC</text>
+<rect x="816.0" y="960" width="34" height="17" rx="4" ry="4" fill="#4338ca" stroke="#4338ca" stroke-width="0"/>
+<text x="833.0" y="973" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">9</text>
+<text x="864.0" y="973" text-anchor="start" fill="#4338ca" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">P12</text>
+<text x="960.0" y="973" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">analog ut → P12_2</text>
+<text x="1220.0" y="973" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">räkna stift, silk är förskjuten</text>
+<rect x="816.0" y="986" width="34" height="17" rx="4" ry="4" fill="#4338ca" stroke="#4338ca" stroke-width="0"/>
+<text x="833.0" y="999" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">10</text>
+<text x="864.0" y="999" text-anchor="start" fill="#4338ca" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">P12</text>
+<text x="960.0" y="999" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">P12_3 → R11 4k87 → P12_2</text>
+<text x="1220.0" y="999" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">hysteres</text>
+<rect x="816.0" y="1012" width="34" height="17" rx="4" ry="4" fill="#1d4ed8" stroke="#1d4ed8" stroke-width="0"/>
+<text x="833.0" y="1025" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">11</text>
+<text x="864.0" y="1025" text-anchor="start" fill="#1d4ed8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">+5V</text>
+<text x="960.0" y="1025" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">+5 V → VDDIO</text>
+<text x="1220.0" y="1025" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">inte bara USB till kitprog</text>
+<rect x="816.0" y="1038" width="34" height="17" rx="4" ry="4" fill="#374151" stroke="#374151" stroke-width="0"/>
+<text x="833.0" y="1051" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">12</text>
+<text x="864.0" y="1051" text-anchor="start" fill="#374151" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">GND</text>
+<text x="960.0" y="1051" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">nedre PSoC-GND → jord</text>
+<text x="1220.0" y="1051" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">4 kΩ Vcc–GND med PSoC ur</text>
+<rect x="816.0" y="1064" width="34" height="17" rx="4" ry="4" fill="#0e7490" stroke="#0e7490" stroke-width="0"/>
+<text x="833.0" y="1077" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">13</text>
+<text x="864.0" y="1077" text-anchor="start" fill="#0e7490" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">OSC</text>
+<text x="960.0" y="1077" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">P15_0 / P15_1 → Y1</text>
+<text x="1220.0" y="1077" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">bästa 5 MHz-kristallen här</text>
+<rect x="816.0" y="1090" width="34" height="17" rx="4" ry="4" fill="#0e7490" stroke="#0e7490" stroke-width="0"/>
+<text x="833.0" y="1103" text-anchor="middle" fill="#fffef9" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">14</text>
+<text x="864.0" y="1103" text-anchor="start" fill="#0e7490" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" font-weight="700">OSC</text>
+<text x="960.0" y="1103" text-anchor="start" fill="#1f2937" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">C4 C5 22 pF till jord</text>
+<text x="1220.0" y="1103" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400">inte 8 MHz</text>
+<text x="40" y="1156" text-anchor="start" fill="#6b7280" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400">CyclingHourglass  ·  KiCad: Schematic/Decoder/Decoder.kicad_pro  ·  scripts/generate_decoder_oversikt.py</text>
+</svg>
