@@ -18,7 +18,7 @@ Firmware: [mv4wd/RCHourglass](https://github.com/mv4wd/RCHourglass) (hex files a
 
 Do not use the V2 BOM on this board — V2 reference designators differ from GitHub.
 
-Shopping list with distributor links: [AndreasM/BOM.md](AndreasM/BOM.md).
+Shopping list with distributor links: [AndreasM/BOM.md](AndreasM/BOM.md) — **TransponderV3 only** (not V2, not WBorek, not the perfboard build). Assembly steps: [wiki/TransponderBuild.md](../../../wiki/TransponderBuild.md#andreasm-transponderv3-smd-kretskort).
 
 | Name | Part | Package |
 | --- | --- | --- |

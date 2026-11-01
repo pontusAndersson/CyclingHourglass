@@ -1,5 +1,15 @@
 # TransponderV3 BOM
 
+**Den här listan är bara för AndreasM TransponderV3** (OSH Park, 4 lager, 19,5 × 19,6 mm). Bygginstruktion: [wiki/TransponderBuild.md](../../../../wiki/TransponderBuild.md#andreasm-transponderv3-smd-kretskort).
+
+Den är **inte** för:
+
+| Variant | Varför inte |
+| --- | --- |
+| Officiellt perfboard | Annan kretsbyggnad: LP2950, Q1 VP2106, DIP-sockel, lindad antenn, polariserade C1/C2 |
+| AndreasM **TransponderV2** | Samma krets, andra referenser. På V2 är avstämningen **C4**, inte C5 |
+| WBorek EasyEDA | 3,3 V-regulator, C5 68 pF, R1 65 Ω, extra knapp |
+
 Parts as ordered from [TME](https://www.tme.eu/se/) (order **35407144**). Enough for **4 boards**. Part references match the official GitHub schematic and the [OSH Park TransponderV3](https://oshpark.com/profiles/AndreasM) PCB.
 
 Source CSV: [TME-order-35407144.csv](TME-order-35407144.csv).
