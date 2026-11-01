@@ -1,7 +1,7 @@
-# RCHourglass
+# CyclingHourglass
 DIY lap timing system. 
 
-![RCHourglass logo](../../images/RCHourglassLogoNewBig.png "RCHourglass logo")
+
 
 # Folder description
 This folder contains the official transponder schematic, to be used with official firmware. 
