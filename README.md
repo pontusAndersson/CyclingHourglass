@@ -1,11 +1,11 @@
-# RCHourglass
+# CyclingHourglass
 DIY lap timing system. 
 
 
-![RCHourglass logo](images/RCHourglassLogoNewBig.png "RCHourglass logo")
 
 # What is it?
-RC Hourglass is a project to develop a DIY automatic timing system that can be used in RC racing and other sporting events.
+Cycling Hourglass is a project to develop a DIY automatic timing system that can be used in cycling racing.
+It is a development much based on RC hourglass.
 The focus of the project is hardware design of the pieces of the system. 
 The hardware is compatible with existing lap timing software.The project idea comes from two threads in RCTech.net forums about 
 lap timing devices design by Howard Cano.The scope of the project is to simplify the design, document the building process and 
@@ -13,7 +13,7 @@ add new features.
 
 Have fun, and donate to a childer charity (see license) 
 
-Marco Venturini - mv4wd
+Pontus
 
 
 
@@ -26,20 +26,7 @@ Many transponder prototypes have been tested successfully.
 
 RCHourglass Manager software is available for decoder configuration and RC4 transponder detection
 
-Beta 3 firmware has RC4 detection, AMBRc protocol emulation and beeper/led notification.
 
-Beta 5 firmware has a better AMBRc protocol emulation, TranX emulation, a second serial port management useful for Arduino (and others) integration, PIC programming with no
-additional hardware.
-
-Beta 6 firmware correction on serial protocol mode selection.
-
-Beta 7 firmware corrects transponder number decoding causing numbers above 9.999.999. AmbRc protocol parsing relaxed for broader compatibility. 
-
-Beta 8 firmware corrects passage record formatting in RCHourglass mode for serial port (not USB)
-
-Beta 9 Corrects SET TIME parsing, AMBRC passage time format for milliseconds < 100 and avoids LEARN feedback on both serial interfaces
-
-Beta 10 Corrects interface reverting to CANO mode after LEARN (regression in beta 9)
 
 # Compatibility
 
@@ -63,7 +50,6 @@ The main community thread, with build reports and a lot of practical info, is [R
 
 # How to contribute
 Right now the most useful contribute would be feedback in the system performance/build reports/electronic design (for example PCBs).
-Also feature requests are wellcome. When stable enough, the full source of the project will be released for further development
 
 # Licensing terms
 Short version: if you build it for your personal use, you're only kindly requested to donate a small sum to a children
