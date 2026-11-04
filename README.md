@@ -23,6 +23,8 @@ Pontus
 
 **Decoder + loop amp:** KiCad and wiring overviews in [Schematic/Decoder/README.md](Schematic/Decoder/README.md). Build steps: [wiki/DecoderBuild.md](wiki/DecoderBuild.md).
 
+**Step-by-step guides (Swedish):** [docs/](docs/README.md) — programming the transponder, programming the decoder, and installing/running the PC software.
+
 The project is in beta status as features are added/tested. Several working prototypes of the decoder have been tested succesfully. 
 Many transponder prototypes have been tested successfully. 
 
