@@ -107,11 +107,12 @@ def draw() -> str:
     q5 = Box(s, 48, 300, 170, 110, "Q5  2N3904", C_VIN, "bias 1,25 V")
     q5c = q5.right("C R6 4k87", 340)
     q5e = q5.bottom("E", 130)
-    gnd(s, *q5e, n=9)
+    gnd(s, *q5e)
     wire(s, C_5V, (130, 236), (130, 300))
     s.dot(130, 236, C_5V)
     s.text(140, 340, "R7 1k21  C2 100 nF", 12, C_VIN, "400")
     wire(s, C_VIN, q5c, (560, 340), (560, 490), q1b)
+    badge(s, 9, 280, 328, C_VIN)
     badge(s, 12, 360, 340, C_VIN)
     wire(s, C_VIN, (400, 340), (400, 490), (780, 490), q2b)
 

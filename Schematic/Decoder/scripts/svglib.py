@@ -128,6 +128,14 @@ class Box:
         return (x, self.y + self.h)
 
 
+def resistor(s: Svg, x, y_top, ref, value, color):
+    s.rect(x - 8, y_top + 8, 16, 34, PAPER, color, 2.2, 3)
+    s.path(f"M{x},{y_top} V{y_top + 8} M{x},{y_top + 42} V{y_top + 50}", color, 2.4)
+    s.text(x + 16, y_top + 22, ref, 12, INK, "700")
+    s.text(x + 16, y_top + 37, value, 12, MUTED, "400")
+    return (x, y_top), (x, y_top + 50)
+
+
 def resistor_h(s: Svg, x_left, y, ref, value, color):
     s.path(f"M{x_left},{y} H{x_left + 8} M{x_left + 48},{y} H{x_left + 56}", color, 2.4)
     s.rect(x_left + 8, y - 8, 40, 16, PAPER, color, 2.2, 3)

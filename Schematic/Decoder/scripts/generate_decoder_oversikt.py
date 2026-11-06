@@ -17,6 +17,7 @@ from svglib import (
     capacitor,
     gnd,
     header,
+    resistor,
     resistor_h,
     svg_to_png,
     table,
@@ -95,8 +96,8 @@ def draw() -> str:
     s.dot(736, 160, C_5V)
     wire(s, C_TX, q4c, (560, 640), r9a)
     badge(s, 8, 640, 628, C_TX)
-    r10t, r10b = capacitor(s, 800, 650, "R10", "2k00↓", C_GND)
-    wire(s, C_TX, r9b, (800, 640), (800, 650))
+    r10t, r10b = resistor(s, 800, 640, "R10", "2k00", C_GND)
+    wire(s, C_TX, r9b, r10t)
     gnd(s, *r10b)
     s.text(820, 628, "TP8 ~1,87 V", 12, C_TX, "700")
 
